@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>about page</title>
+    <style>
+       
+    </style>
 </head>
 <body>
     <header>
-        <h1>ToDo</h1>
-        <a href="">Home</a>
-        <a href="">about us</a>
+       <div class="container">
+        <nav>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about us">about us</a></li>
+        </ul>
+    </nav>
+  </div>
     </header>
     <main>
-        <section>
-            <h3>your name </h3>
-            <input type="text" id="about you" name="about you"><br><br>
+        <h3 id="titlesection1">your  name </h3>
+        <section class="aboutyou">
+            
+            <input type="text" id="aboutyou" name="about you" placeholder="OverView About Your Self "><br><br>
         </section>
-        <section>
-            <h3>contact me</h3>
-            <label >name :</label>
-            <input type="text" id="your name" name="your name" ><br><br> 
-            <label for="Email">E-mail :</label>
-            <input type="text" id="your email" name="your email" ><br><br>
-            <label for="phone">phone : </label>
-            <input type="tel" id="your phone" name="your phone" ><br><br>
-            <label for="message">Message</label>
-            <input type="text" id="your message" name="your message" ><br><br>
-            <input type="submit" value="send">
-                </section>
+
+        <h3 id="titlesection2">contact me</h3>
+        <section class="contactme">
+            <label id="name" >Full Name :  </label>
+            <input type="text" id="yourname" name="your name" ><br><br> 
+            <label for="Email">E-mail :  </label>
+            <input type="text" id="youremail" name="your email" ><br><br>
+            <label id="phone" for="Phone">phone :   </label>
+            <input type="tel" id="yourphone" name="your phone" ><br><br>
+            <label id="message">Message :   </label>
+            <input type="text" id="yourmessage" name="your message" ><br><br>
+            <button id="button">Send</button>
+         </section>
+
     </main>
     <footer>
-        <p> &copy; </p>
+        <p id="copyright"> &copy; 2022 All right reserved </p> 
     </footer>
 </body>
 </html>
