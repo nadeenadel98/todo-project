@@ -98,6 +98,36 @@
           display: table;
           clear: both;
       }
+      #box1 {
+          margin-left: 60px;
+      }
+      #box2 {
+          margin-left: 4px;
+      }
+      #box3{
+          margin-left: 18px;
+      }
+      .first{
+          width: 40px;
+          height: 22px;
+          background-color: green;
+          border: black;
+          margin-left: 200px;
+      }
+      .second{
+        width: 40px;
+          height: 22px;
+          background-color: red;
+          border: black;
+          margin-left: 200px;
+      }
+      .third{
+        width: 40px;
+          height: 22px;
+          background-color: red;
+          border: black;
+          margin-left: 200px;
+      }
       
     </style>
 </head>
@@ -106,8 +136,8 @@
         <div class="container">
         <nav>     
             <ul>
-       <li><a href="#home">Home </a></li> 
-       <li><a href="#about us">about us</a></li>
+       <li><a href="./index.html">Home </a></li> 
+       <li><a href="./about.html">about us</a></li>
            </ul>
       </nav>
     </div>
@@ -121,16 +151,16 @@
                <th>Status</th>
             </tr>
             <tr>
-               <td>learn js</td>
-               <td></td>
+               <td>learn js<input type="checkbox" id="box1"></td>
+               <td><div class="first"></div></td>
             </tr>
             <tr>
-                <td>create html pages</td>
-                <td></td>
+                <td>create html pages<input type="checkbox" id="box2"></td>
+                <td><div class="second"></div></td>
             </tr>
             <tr>
-                <td>watch the film</td>
-                <td></td>
+                <td>watch the film<input type="checkbox" id="box3"></td>
+                <td><div class="third"></div></td>
             </tr>
         </table>
     </section>
@@ -139,4 +169,5 @@
        <p id="copyright"> &copy; 2022 All right reserved </p> 
     </footer>
 </body>
+<script src="/javascript/app.js"></script>
 </html>
