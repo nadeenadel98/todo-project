@@ -50,13 +50,18 @@ var confirm=prompt("are you want to skip the welcoming message ? ");
         Answer(additional_question_2);
 
     var additional_question_3=prompt("are you from jordan ? ") ;
-       Answer(additional_question_3); 
+        Answer(additional_question_3);
        
        var Answering =[additional_question_1 ,additional_question_2 , additional_question_3];
+        printArray(Answering);
 
-       for(var x=0 ; x <=3 ; x++) { //(0 1 2 )
-           console.log(Answering[x]); 
-       }
+
+      function printArray(array){
+        for(var x=0 ; x <=3 ; x++) { 
+            console.log(array[x]); 
+        }
+      }
+
       
     function Answer(c){
     switch(c){
