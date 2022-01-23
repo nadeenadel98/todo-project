@@ -43,3 +43,32 @@ var confirm=prompt("are you want to skip the welcoming message ? ");
               alert("invalid value please enter Yes or No");
    }
 
+   var additional_question_1=prompt("are you in university ?");
+       Answer(additional_question_1);
+
+    var additional_question_2=prompt("are you single ? ");
+        Answer(additional_question_2);
+
+    var additional_question_3=prompt("are you from jordan ? ") ;
+       Answer(additional_question_3); 
+       
+       var Answering =[additional_question_1 ,additional_question_2 , additional_question_3];
+
+       for(var x=0 ; x <=3 ; x++) { //(0 1 2 )
+           console.log(Answering[x]); 
+       }
+      
+    function Answer(c){
+    switch(c){
+        case "yes" :
+        case "Yes" :
+            break;
+            case "No" :
+            case "no" :
+                break;
+                    default:
+                        alert("invalied value 'Hint :please enter Yes ,yes or No ,no '");
+    
+    }
+    }
+
